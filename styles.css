@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+}
+.site-header {
+    position: fixed;  
+    width:100%;
+    height: 10vh;    
+    top: 0px;
+    color: white;
+    font-family: 'Brandon Grotesque','brandon-grotesque',Helvetica,sans-serif;
+    display:flex;
+    align-items: center;
+    font-weight: bold;      
+
+}
+
+.starlink-mission {
+    width: 100%;
+    height: 100vh;    
+    position:relative;
+    background: url("https://images.axios.com/dYjWHrPmi47XHarBe9Mjl7SwC_s=/0x0:1920x1080/1920x1080/2019/05/16/1557973365613.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+    z-index: -1;   
+}
+.website-title{
+    font-size: 32px;    
+    position: relative;
+    left: 20%;    
+}
+.header-options {
+    position: relative;
+    left: 25%; 
+    word-spacing: 15px;   
+}
+.header-shop {
+    position: fixed;
+    right: 5%;
+}
+.hamburger-icon1 {
+    position: absolute;
+    right: 3%;
+    width: 20px;
+    height: 3px;
+    background-color: white;
+    bottom: 40px;    
+}
+.hamburger-icon2 {
+    position: absolute;
+    right: 3%;
+    width: 20px;
+    height: 3px;
+    background-color: white;
+    
+}
+.hamburger-icon3 {
+    position: absolute;
+    right: 3%;
+    width: 20px;
+    height: 3px;
+    background-color: white;
+    top: 40px;    
+}
+.starlink {
+    color:white;    
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    bottom: 25vh;
+    left: 25vh;   
+}
+.recent-launch {
+    font-size: 24px;
+}
+.starlink-title {
+    font-size: 42px;
+    font-weight: bold;
+}
+.button-container {
+    background:  none;
+    height:  38px;
+    line-height:  40px;
+    border:  2px solid white;
+    display:  inline-block;
+    float:  none;
+    text-align:  center;
+    width:  120px;      
+    font-size:  14px;
+    color:  #fff;
+    position: fixed;
+    bottom: 15vh;
+    left: 25vh;    
+}
+.button:hover{
+    color: black;
+    background-color: white;    
+}
+/* .starship-mission {
+    width: 100%;
+    height: 100vh;
+    background: url("https://s.yimg.com/uu/api/res/1.2/2kBF4Z7eHJapv_ZZ1bvFyw--~B/Zmk9ZmlsbDtoPTQ1MDt3PTY3NTthcHBpZD15dGFjaHlvbg--/https://s.yimg.com/os/creatr-uploaded-images/2021-02/c1a38f50-748b-11eb-b3dc-5f42f84cc23c.cf.webp") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;    
+}
+.mission-choice {
+    width:100%;
+    height: 10vh;
+    color:white;    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: absolute;
+    top 25px;
+   
+}
+.starship-title {       
+    font-size: 42px;
+    font-weight: bold;
+}
+.starship-descrip{
+    width: 40%;
+    margin-top: 10px;
+    font-size: 20px;    
+    word-wrap: normal;
+}
+.button-container2 {
+    background:  none;
+    height:  38px;
+    line-height:  40px;
+    border:  2px solid white;
+    display:  inline-block;
+    float:  none;
+    text-align:  center;
+    width:  120px;      
+    font-size:  14px;
+    color:  #fff;
+    position: fixed;
+    bottom: 15vh;
+    left: 25vh;    
+} */
